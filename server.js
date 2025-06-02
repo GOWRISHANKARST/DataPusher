@@ -12,5 +12,5 @@ app.use("/accounts", accountRoutes);
 app.use("/destinations", destinationRoutes);
 
 app.listen(PORT, () => {
-  console.log(`Server running at http://localhost:${PORT}`);
+  console.log('Server running at http://localhost:'+PORT);
 });
